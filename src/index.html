@@ -10,13 +10,19 @@
           <h1>Find-A-Doc</h1>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-6">
         <form id="search-name-form" class="form-control" method="post">
           <label for="search-name">Search by Doctor's name:</label>
           <input id="search-name" type="text" name="search-name">
           <button type="submit" class="btn btn-info">Search</button>
         </form>
-      </div>
+
+      <form id="search-symptom-form" class="form-control" method="post">
+        <label for="search-symptom">Search by symptom:</label>
+        <input id="search-symptom" type="text" name="search-symptom">
+        <button type="submit" class="btn btn-info">Search</button>
+      </form>
+    </div>
 
       <div class="col-md-6">
         <div id="output">
@@ -25,7 +31,9 @@
       </div>
 
 
+      <div id="showErrors">
 
+      </div>
 
     </div>
 
